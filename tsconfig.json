@@ -5,9 +5,10 @@
     "forceConsistentCasingInFileNames": true,
     "noEmitOnError": true,
     "outDir": "./dist",
+    "rootDir": "./src",
     "baseUrl": "./"
   },
-  "include": ["src/**/*", "config.ts"],
+  "include": ["src/**/*"],
   "exclude": ["**/*.spec.ts"],
   "paths": {
     "@src/*": ["src/*"]

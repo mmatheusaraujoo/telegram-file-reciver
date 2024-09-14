@@ -5,5 +5,5 @@ dotenv.config();
 
 // Export the environment variables
 export const environments = {
-  botToken: process.env.BOT_TOKEN,
+  botToken: process.env.BOT_TOKEN || '',
 };
