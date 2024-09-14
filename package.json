@@ -1,0 +1,29 @@
+{
+  "name": "telegram-file-receiver",
+  "version": "0.0.0",
+  "description": "an application that receives files from telegram ussing a bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "Matheus Araújo dos Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.5.5",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.6",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}

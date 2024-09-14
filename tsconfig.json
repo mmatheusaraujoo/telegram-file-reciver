@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*", "config.ts"],
+  "exclude": ["**/*.spec.ts"],
+  "paths": {
+    "@src/*": ["src/*"]
+  }
+}
